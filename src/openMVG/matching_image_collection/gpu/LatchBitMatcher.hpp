@@ -3,8 +3,8 @@
 #include <cstdint>
 #include <vector>
 
-#include <cuda.h>
-#include <cuda_runtime.h>
+#include </usr/local/cuda-8.0/include/cuda.h>
+#include </usr/local/cuda-8.0/include/cuda_runtime.h>
 
 #include "openMVG/features/latch/LatchBitMatcherMatch.hpp"
 

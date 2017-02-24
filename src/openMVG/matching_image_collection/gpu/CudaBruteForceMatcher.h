@@ -2,7 +2,7 @@
 
 #include <cstdint>
 
-#include "cuda_runtime.h"
+#include "/usr/local/cuda-8.0/include/cuda_runtime.h"
 
 #ifdef __INTELLISENSE__
 #define asm(x)

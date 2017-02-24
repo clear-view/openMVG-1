@@ -2,8 +2,8 @@
 
 #include <vector>
 
-#include <cuda.h>
-#include <cuda_runtime.h>
+#include </usr/local/cuda-8.0/include/cuda.h>
+#include </usr/local/cuda-8.0/include/cuda_runtime.h>
 
 #include <opencv2/opencv.hpp>
 #include <opencv2/core/cuda.hpp>
@@ -24,6 +24,6 @@ class GPUBruteForceL2Matcher {
 		std::vector<LatchBitMatcherMatch> m_goodMatches;
 
 		cv::Ptr<cv::cuda::DescriptorMatcher> m_matcher;
-		
+
 		cudaStream_t m_stream;
 };
